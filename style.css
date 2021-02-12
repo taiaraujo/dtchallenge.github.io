@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@font-face {
+    font-family: PROXIMA NOVA RG;
+    src: url('/font/proximanova-regular.otf');
+}
+
+
+body{
+    min-width: 100vh;
+    font-family: 'Varela Round', sans-serif;
+    font: 20px;
+}
+
+#title p{
+    font-family: 20px, PROXIMA NOVA RG, bold, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h6{
+    text-align: justify;
+    font: 10px, bold, PROXIMA NOVA RG, sans-serif;
+    color: #424242c9;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p{
+    text-align: justify;
+    font: 28px, "Varela Round", bold, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    background-color: #000000B3;
+    color: #FFFFFFB3;
+    font-family: 14px, PROXIMA NOVA RG, bold, sans-serif;
+    padding-top: 14px;
+    padding-bottom: 80px;
+}
+
+.nav-text{
+    color: #FFFFFFB3;
+    font-family: 20px, PROXIMA NOVA RG, bold, sans-serif;
+    padding-top: 150px;
+}
+
+.cabecalho{
+    padding: 30px, 0px;
+}
+
+.sobre{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.margin{
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.bg-footer{
+    background-color:black;
+    color: white;
+}
+
+.img_div{
+    padding-top: 20px;
+    width: 350px;
+    height: 370px;
+}
+
+.tweet{
+    text-decoration: none;
+    color:black;
+}
+
+.tweet:hover{
+    transition: 5ms;
+    color:#f34c51;
+}
+
+.img_div{
+    transition: 1s;
+    filter: brightness(0.75);
+}
+
+.img_div:hover{
+    transition: 500ms;
+    filter: brightness(1.0);
+}
+
+nav { 
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    background-image: url(./img/cwd-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    margin-top: 20px;
+    margin-bottom:10%;
+}
+
+nav ul{ 
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+nav ul *{ 
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+nav ul a{
+   margin-top: 20px;
+}
+
+.nav-text{
+    font-weight: 700;
+}
+.nav-text:hover{
+    color: white;
+}
+
+.text-lg-start{
+  color: white;
+}
+
+/* LOADING ANIMATION https://loading.io/css/ */
+#loading-icon {
+    margin: 20%;
+    text-align: center;
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: red;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
